@@ -1,6 +1,6 @@
 #pragma once
 
-#include "table.h"  // IWUY pragma: export
+#include "table.h"  // IWYU pragma: export
 
 template <typename T>
 struct Map {
