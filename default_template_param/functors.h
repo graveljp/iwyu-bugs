@@ -5,8 +5,8 @@
 
 struct Identity {
   template <typename T>
-  constexpr T&& operator()(T&& t) const noexcept {
-    return std::forward<T>(t);
+  T operator()(T t) {
+    return t;
   }
 };
 
